@@ -1,0 +1,53 @@
+.container{
+  padding: 0;
+  margin: 0;
+	width: 100%;
+  height: auto;
+ overflow-x:hidden;   
+}
+body{
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ), url(images/bank4.jpg);
+    transition: 0.3s ease;
+}
+
+.Main{
+  margin-top: 30vh;
+  color: white;
+  font-weight: normal;
+}
+
+.row{
+  padding: 10vw;
+}
+.results tr[visibility:"true"];
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    }
+.hero h2 {
+      font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-style: italic;
+    font-size: 4em;    
+    font-weight: bold;
+    padding-bottom: 4vh;
+}
+.hero h4{
+    font-weight: bold;
+    padding-bottom: 10vh;
+  }
+  #remove {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+  }
+.text-info{
+  font-weight: bold;
+  text-transform: uppercase;
+}
